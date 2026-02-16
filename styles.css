@@ -1,3 +1,14 @@
 .sick {
   font-size: 100;
 }
+
+.container1 {
+  display: flex;
+  flex-direction: column; /*not sure what I'm supposed to do to make these stack vertically, I treied incasing stuff in divs within the div, but that didn't work either */
+  align-items: center;
+  justify-content: center;
+}
+
+.vertItem {
+  flex: auto;
+}
