@@ -14,3 +14,36 @@
   flex: auto;
   max-width: 100%;
 }
+
+.container2 {
+  display: flex;
+  height: 250px;
+  background-color: crimson;
+  justify-content: flex-end;
+  margin: auto 50px;
+}
+
+.box1 {
+  background-color: aliceblue;
+  width: 50px;
+  flex-grow: 1;
+  margin: 5px 5px;
+}
+
+.box2 {
+  background-color: aqua;
+  width: 50px;
+  flex-grow: 1;
+  margin: 5px 5px;
+}
+
+.box3 {
+  background-color: rgb(132, 145, 200);
+  width: 50px;
+  flex-grow: 0;
+  margin: 5px 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; /* in a container this small, you can see the difference b/t justify-content and text-align pretty clearly. This one is like microsoft word, while the former treats the texta s a whole block.*/
+}
