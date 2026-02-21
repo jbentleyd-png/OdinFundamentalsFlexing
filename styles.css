@@ -24,17 +24,24 @@
 }
 
 .box1 {
+  display: flex;
   background-color: aliceblue;
   width: 50px;
   flex-grow: 1;
   margin: 5px 5px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .box2 {
+  display: flex;
   background-color: aqua;
   width: 50px;
   flex-grow: 1;
   margin: 5px 5px;
+  justify-content: center;
+  align-items: center;
 }
 
 .box3 {
