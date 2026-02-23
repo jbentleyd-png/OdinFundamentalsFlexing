@@ -1,3 +1,8 @@
+body {
+  margin: 0px; /*turns out, negative pixels IS a thing lol*/
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .sick {
   font-size: 100px;
 }
@@ -32,6 +37,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  padding: 10px;
 }
 
 .box2 {
@@ -53,4 +59,33 @@
   justify-content: center;
   align-items: center;
   text-align: center; /* in a container this small, you can see the difference b/t justify-content and text-align pretty clearly. This one is like microsoft word, while the former treats the texta s a whole block.*/
+}
+
+/*TESTIMONIAL*/
+
+.testimonial {
+  padding: 100px 20vw; /* coonsider changing this and other section padding to vw in a later update*/
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 300;
+  margin-bottom: 0;
+  font-style: italic;
+}
+
+.attributed-to {
+  font-weight: bold;
+  align-self: flex-end;
+}
+
+.box1 img {
+  width: 100%;
+  max-width: 300px;
 }
