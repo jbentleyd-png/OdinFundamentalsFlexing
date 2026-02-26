@@ -34,5 +34,7 @@ let luckyNum = (myVar ** getRandomInt(69) % 420) + getRandomInt(2);
 //still not sure how the function works though, check niext time?
 
 //looking at JS-specific logical operator behavior:
-alert(1 || 2 || (3 && 0));
-alert((null && 0) || (3 && 0)); //should return 0, not null?
+console.log(1 || 2 || (3 && 0));
+console.log((null && 0) || (3 && 0)); //should return 0, not null?
+console.log(!1); //false
+console.log(!!1); //true
