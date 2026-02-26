@@ -32,3 +32,7 @@ function getRandomInt(maxIncl) {
 let luckyNum = (myVar ** getRandomInt(69) % 420) + getRandomInt(2);
 //this last bit is to make odds possible 50%ish of the time.
 //still not sure how the function works though, check niext time?
+
+//looking at JS-specific logical operator behavior:
+alert(1 || 2 || (3 && 0));
+alert((null && 0) || (3 && 0)); //should return 0, not null?
