@@ -8,6 +8,9 @@ window.onload = function () {
   );
 };
 
+//try out a prompt, been seeing these in my conditionals learning today.
+prompt("How you feelin? (Better learn the DOM soon, eh?", "");
+
 const fullDate = new Date();
 // Example output: "Sun Feb 22 2026 11:14:10 GMT-0700 (Mountain Standard Time)"
 
